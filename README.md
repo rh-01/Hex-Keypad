@@ -30,6 +30,6 @@ Routes the input signal to MAR or RAM according to the input selected. It and co
 ## Notes
 
 
-The first module can be placed directly next to the MAR module, and if you keep the lowest two breadboards (right and left side) empty for Ben Eater's original design, you can fit the last two modules there.
+The first module can be placed directly next to the MAR module, and if you keep the lowest two breadboards (right and left side) empty for Ben Eater's original design, you can fit the last two modules there (see attached image).
 
 The project can easily be extended to 8 bit addresses: simply add another 175 and one more indicator LED for the 8 bit address.
