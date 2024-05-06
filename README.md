@@ -4,14 +4,16 @@
 
 This is a side project for Ben Eater's 8 bit computer. It adds an input module that enables using a simple hex keyboard for code input. It consists of three sub-modules:
 
-## Input selector (address / msb / lsb):
+## Input selector 
+Selects the input type (address / msb / lsb) and consists of the following components:
 - pushbutton
 - double D flip flop [74]
 - 2x 2-4 decoders (quad NAND) 
 - 3 inverters (can be used from clock)
 - 3 LEDs
 
-## Key encoder (0-F): 
+## Key encoder
+Converts the button presses of the hex keyboard into a 4 bit code and consists of the following components:
 - hex keyboard (or simply 16 push buttons)
 - counter from output module (needs to be inverted) 
 - 2x 4-2 encoders (quad OR)
@@ -19,6 +21,7 @@ This is a side project for Ben Eater's 8 bit computer. It adds an input module t
 - 4 bit 3-state Buffer (with Schmitt trigger) [126]
 
 ## Signal router (address / msb / lsb):
+Routes the input signal to MAR or RAM according to the input selected. It and consists of the following components: 
 - 2x double 4 bit buffer (244)
 - 3x quad buffers (175)
 - 3x 3-state Buffer (125)
