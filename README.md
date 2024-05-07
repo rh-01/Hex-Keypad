@@ -4,7 +4,7 @@
 
 This is a side project for Ben Eater's 8 bit computer. It adds an input module that enables using a simple hex keyboard for code input. It consists of three sub-modules (I used HC series ICs for the whole project):
 
-## Input selector 
+## 1 - Input selector 
 Selects the input type (address / msb / lsb) and consists of the following components:
 - pushbutton
 - double D flip flop [74HC74]
@@ -12,7 +12,7 @@ Selects the input type (address / msb / lsb) and consists of the following compo
 - 3 inverters (can be used from clock module above) for indicator LEDs
 - 3 LEDs to indicate input mode (yellow for MAR and 2 x red for RAM)
 
-## Key encoder
+## 2 - Key encoder
 Converts the button presses of the hex keyboard into a 4 bit code and consists of the following components:
 - hex keypad (or simply 16 push buttons)
 - existing counter from output module (needs to be inverted with an additional 74HC04) to scan columns
@@ -20,7 +20,7 @@ Converts the button presses of the hex keyboard into a 4 bit code and consists o
 - 2 triggers - one for key encoder (4-OR gate, 4072), one for signal switch (4-OR gate + additional OR for 0) 
 - 4-bit 3-state Buffer (with Schmitt trigger) [74HC126]
 
-## Signal router
+## 3 - Signal router
 Routes the input signal to MAR or RAM according to the input selected (MAR, RAM msb/lsb). It and consists of the following components: 
 - 2x double 4 bit buffer (74HC244) for routing
 - 3x quad buffers (74HC175) as input buffers
