@@ -32,7 +32,7 @@ I used HC series chips for the whole project.
 
 There might be a more elegant way to implement this. For example, I wanted to directly connect the input select with the 4-Or gate that registers key presses so that I don't have to manually switch between the three target registers. However, there was a problem in the signal quality so that the switch would not happen reliably. When I have a bit more time I might try to fix this.
 
-The first module can be placed directly next to the MAR module, and if you keep the lowest two breadboards (right and left side) empty for Ben Eater's original design, you can fit the last two modules there (see image).
+The first module can be placed directly next to the MAR module, and if you keep the lowest two breadboards (right and left side) empty for Ben Eater's original design, you can fit the last two modules there (see image, I removed the Keypad to show the full board).
 
 ![alt text](IMG_3048.jpg)
 
