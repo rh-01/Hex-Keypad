@@ -2,7 +2,7 @@
 
 # Hex-Keypad
 
-This is a side project for Ben Eater's 8 bit computer. It adds an input module that enables using a simple hex keyboard for code input. It consists of three sub-modules (I used HC series ICs for the whole project):
+This is a side project for Ben Eater's 8 bit computer. It adds an input module that enables using a simple hex keyboard for code input. It consists of three sub-modules (I used HC series ICs for the whole project, and I also needed a few 4.7k push-down resistors and 100nF decoupling capacitors ):
 
 ## 1 - Input selector 
 Selects the input type (address / msb / lsb) and consists of the following components:
@@ -26,8 +26,6 @@ Routes the input signal to MAR or RAM according to the input selected (MAR, RAM 
 - 3x quad buffers (74HC175) as input buffers
 - 3-state Buffer (74HC125) as trigger (from input selector)
 
-
-You'll also need a few push-down resistors (4.7k) and decoupling capacitors (100nF).  
 
 ## Notes
 
