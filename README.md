@@ -2,7 +2,7 @@
 
 # Hex-Keypad
 
-This is a side project for Ben Eater's 8 bit computer. It adds an input module that enables using a simple hex keyboard for code input. It consists of three sub-modules:
+This is a side project for Ben Eater's 8 bit computer. It adds an input module that enables using a simple hex keyboard for code input. It consists of three sub-modules (I used HC series ICs for the whole project):
 
 ## Input selector 
 Selects the input type (address / msb / lsb) and consists of the following components:
@@ -28,7 +28,6 @@ Routes the input signal to MAR or RAM according to the input selected (MAR, RAM 
 
 
 ## Notes
-I used HC series chips for the whole project.
 
 There might be a more elegant way to implement this. For example, I wanted to directly connect the input select with the 4-OR gate that registers key presses so that I don't have to manually switch between the three target registers. However, there was a problem in the signal quality from the 4-OR (the switch would not happen reliably). When I have a bit more time I might try to fix this.
 
@@ -37,4 +36,4 @@ The first module can be placed in the empty space of the MAR module (the LEDs ar
 ![alt text](IMG_3048.jpg)
 
 
-The project can easily be extended to 8 bit addresses: simply add another 175 and one more indicator LED for the 8 bit address (one of the 244 routers still has an empty slot). 
+PS: The project can easily be extended to 8 bit addresses, if you have implemented a 8-bit address version of the computer: simply add another 175 and one more indicator LED for the 8 bit address (one of the 244 routers still has an empty slot). In my setup, I was unfortunately running out of space. 
