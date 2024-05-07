@@ -27,6 +27,8 @@ Routes the input signal to MAR or RAM according to the input selected (MAR, RAM 
 - 3-state Buffer (74HC125) as trigger (from input selector)
 
 
+You'll also need a few push-down resistors (4.7k) and decoupling capacitors (100nF).  
+
 ## Notes
 
 There might be a more elegant way to implement this. For example, I wanted to directly connect the input select with the 4-OR gate that registers key presses so that I don't have to manually switch between the three target registers. However, there was a problem in the signal quality from the 4-OR (the switch would not happen reliably). When I have a bit more time I might try to fix this.
