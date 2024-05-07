@@ -10,7 +10,7 @@ Selects the input type (address / msb / lsb) and consists of the following compo
 - double D flip flop [74HC74]
 - quad NAND (74HC00) 
 - 3 inverters (can be used from clock module above)
-- 3 LEDs
+- 3 LEDs to indicate input mode (yellow for MAR and 2xred for RAM)
 
 ## Key encoder
 Converts the button presses of the hex keyboard into a 4 bit code and consists of the following components:
