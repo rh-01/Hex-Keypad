@@ -37,4 +37,4 @@ The first module can be placed directly next to the MAR module, and if you keep 
 ![alt text](IMG_3048.jpg)
 
 
-The project can easily be extended to 8 bit addresses: simply add another 175 and one more indicator LED for the 8 bit address.
+The project can easily be extended to 8 bit addresses: simply add another 175 and one more indicator LED for the 8 bit address (one of the 244 routers still has an empty slot). 
