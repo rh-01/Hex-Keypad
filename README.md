@@ -14,7 +14,7 @@ Selects the input type (address / msb / lsb) and consists of the following compo
 
 ## Key encoder
 Converts the button presses of the hex keyboard into a 4 bit code and consists of the following components:
-- hex keyboard (or simply 16 push buttons)
+- hex keypad (or simply 16 push buttons)
 - counter from output module (needs to be inverted with an additional 74HC04) 
 - quad OR (74HC32)
 - 2 triggers - one for key encoder (4-OR gate, 4072), one for signal switch (4-OR gate + additional OR for 0) 
