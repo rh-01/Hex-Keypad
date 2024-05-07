@@ -1,6 +1,6 @@
 +++ work in progress +++
 
-# Hex-Keyboard
+# Hex-Keypad
 
 This is a side project for Ben Eater's 8 bit computer. It adds an input module that enables using a simple hex keyboard for code input. It consists of three sub-modules:
 
