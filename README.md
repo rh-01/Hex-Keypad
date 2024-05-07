@@ -20,8 +20,8 @@ Converts the button presses of the hex keyboard into a 4 bit code and consists o
 - 2 triggers - one for key encoder (4-OR gate), one for signal switch (4-OR gate + additional OR for 0) 
 - 4-bit 3-state Buffer (with Schmitt trigger) [74HC126]
 
-## Signal router (address / msb / lsb):
-Routes the input signal to MAR or RAM according to the input selected. It and consists of the following components: 
+## Signal router
+Routes the input signal to MAR or RAM according to the input selected (MAR, RAM msb/lsb). It and consists of the following components: 
 - 2x double 4 bit buffer (74HC244)
 - 3x quad buffers (74HC175)
 - 3-state Buffer (74HC125)
