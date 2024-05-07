@@ -5,7 +5,7 @@ This is a side project for Ben Eater's 8 bit computer. It adds an input module t
 Note: I used HC series ICs for the whole project, and I also needed a few 4.7k push-down resistors and 100nF decoupling capacitors.
 
 ## 1 - Input selector 
-Selects the input type (address / msb / lsb) and consists of the following components:
+Selects the input destination (address / msb / lsb) and consists of the following components:
 - pushbutton
 - double D flip flop [74HC74]
 - quad NAND (74HC00) 
