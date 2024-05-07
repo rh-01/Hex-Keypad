@@ -22,9 +22,9 @@ Converts the button presses of the hex keyboard into a 4 bit code and consists o
 
 ## Signal router
 Routes the input signal to MAR or RAM according to the input selected (MAR, RAM msb/lsb). It and consists of the following components: 
-- 2x double 4 bit buffer (74HC244)
-- 3x quad buffers (74HC175)
-- 3-state Buffer (74HC125)
+- 2x double 4 bit buffer (74HC244) for routing
+- 3x quad buffers (74HC175) as input buffers
+- 3-state Buffer (74HC125) as trigger (from input selector)
 
 
 ## Notes
