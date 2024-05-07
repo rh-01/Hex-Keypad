@@ -13,18 +13,18 @@ Selects the input destination (address / msb / lsb) and consists of the followin
 - 3 LEDs to indicate input mode (yellow for MAR and 2 x red for RAM)
 
 ## 2 - Key encoder
-Converts the button presses of the hex keyboard into a 4 bit code and consists of the following components:
+Converts the button presses of the hex keypad into a 4 bit code, and consists of the following components:
 - hex keypad (or simply 16 push buttons)
 - existing counter from output module (needs to be inverted with an additional 74HC04) to scan columns
 - quad OR (74HC32) for encoding rows and columns
-- 2 triggers - one for key encoder (4-OR gate, 4072), one for signal switch (4-OR gate + additional OR for 0) 
+- 2 triggers - one for key encoder (4-OR gate, 4072), one for signal switch (4-OR gate + additional OR for '0' button which otherwise is not captured) 
 - 4-bit 3-state Buffer (with Schmitt trigger) [74HC126]
 
 ## 3 - Signal router
 Routes the input signal to MAR or RAM according to the input selected (MAR, RAM msb/lsb). It and consists of the following components: 
-- 2x double 4 bit buffer (74HC244) for routing
+- 2x double 4-bit buffers (74HC244) for routing
 - 3x quad buffers (74HC175) as input buffers
-- 3-state Buffer (74HC125) as trigger (from input selector)
+- 3-state buffer (74HC125) as read enable switch (triggered by input selector)
 
 
 ## Notes
