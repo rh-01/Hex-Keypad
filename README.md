@@ -21,7 +21,7 @@ Converts the button presses of the hex keypad into a 4 bit code, and consists of
 - 4-bit 3-state buffer (with Schmitt trigger) [74HC126]
 
 ## 3 - Signal router
-Routes the input signal to MAR or RAM according to the input selected (MAR, RAM msb/lsb). It and consists of the following components: 
+Routes the input signal to MAR or RAM according to the input selected (MAR, RAM msb/lsb), and consists of the following components: 
 - 2x double 4-bit buffers (74HC244) for routing
 - 3x quad buffers (74HC175) as input buffers
 - 3-state buffer (74HC125) as read enable switch (triggered by input selector)
