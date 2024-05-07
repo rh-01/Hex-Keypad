@@ -29,11 +29,11 @@ Routes the input signal to MAR or RAM according to the input selected (MAR, RAM 
 
 ## Notes
 
-There might be a more elegant way to implement this. For example, I wanted to directly connect the input select with the 4-OR gate that registers key presses so that I don't have to manually switch between the three target registers. However, there was a problem in the signal quality from the 4-OR (the switch would not happen reliably). When I have a bit more time I might try to fix this.
-
 The first module can be placed in the empty space of the MAR module (the LEDs are placed on the clock module above), and if you keep the lowest two breadboards (right and left side) empty for Ben Eater's original design, you can fit the last two modules there (see image, I removed the keypad to show the full board).
 
 ![alt text](IMG_3048.jpg)
 
+
+There might be a more elegant way to implement this. For example, I wanted to directly connect the input select with the 4-OR gate that registers key presses so that I don't have to manually switch between the three target registers. However, there was a problem in the signal quality from the 4-OR (the switch would not happen reliably). When I have a bit more time I might try to fix this.
 
 PS: The project can easily be extended to 8 bit addresses, if you have implemented a 8-bit address version of the computer: simply add another 175 and one more indicator LED for the 8 bit address (one of the 244 routers still has an empty slot). In my setup, I was unfortunately running out of space. 
