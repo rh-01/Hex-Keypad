@@ -1,4 +1,4 @@
-# Hex-Keypad
+# Hex Keypad Input Module
 
 This is a side project for Ben Eater's 8 bit computer. It adds an input module that give you the option to use a simple hex keypad for code input, and consists of three sub-modules. I added some basic schematics for them, but this whole description still needs to be cleaned up a bit when I have more time...
 
