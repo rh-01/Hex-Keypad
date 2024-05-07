@@ -17,7 +17,7 @@ Converts the button presses of the hex keypad into a 4 bit code, and consists of
 - hex keypad (or simply 16 push buttons)
 - existing counter from output module (needs to be inverted with an additional 74HC04) to scan columns
 - quad OR (74HC32) for encoding rows and columns
-- 2x 4-OR gates ((+ additional OR for '0' button which otherwise is not captured) for two triggers: one for the 3- state buffer of the key encoder (4-OR gate, 4072), one for the signal switch  
+- 2x 4-OR gates (4072 + additional OR for '0' button which otherwise is not captured) for two triggers: one for the 3- state buffer of the key encoder, one for the signal switch  
 - 4-bit 3-state buffer (with Schmitt trigger) [74HC126]
 
 ## 3 - Signal router
