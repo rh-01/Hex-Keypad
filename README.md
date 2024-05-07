@@ -6,7 +6,7 @@ Note: I used HC series ICs for the whole project, and I also needed a few 4.7k p
 
 ## 1 - Input selector 
 Selects the input destination (address / msb / lsb) and consists of the following components:
-- pushbutton
+- push button
 - double D flip flop [74HC74]
 - quad NAND (74HC00) 
 - 3 inverters (can be used from clock module above) for indicator LEDs
