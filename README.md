@@ -13,7 +13,7 @@ Selects the input destination (address / msb / lsb) and consists of the followin
 - 3 LEDs to indicate input mode (yellow for MAR and 2 x red for RAM)
 
 ## 2 - Key encoder
-Converts the button presses of the hex keypad (which simply consist of 16 buttons connected with 4 wires each for rows and columns) into a 4 bit code, and consists of the following components:
+Converts the button presses of the hex keypad (which is simply 16 buttons connected with 4 wires each for rows and columns) into a 4 bit code, and consists of the following components:
 - hex keypad (or simply 16 push buttons)
 - existing counter from output module (needs to be inverted with an additional 74HC04) to scan columns
 - quad OR (74HC32) for encoding rows and columns
