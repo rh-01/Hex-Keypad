@@ -2,7 +2,7 @@
 
 This is a side project for Ben Eater's 8 bit computer. It adds an input module that give you the option to use a simple hex keypad for code input, and consists of three sub-modules. I added some basic schematics for them, but this whole description still needs to be cleaned up a bit when I have more time...
 
-Operation is straightforward: select destination, enter hex code, finally confirm input with Ben's original Enter button.
+Operation is straightforward: select destination, enter hex code, finally (after all three hex codes have been entered) confirm input with Ben's original Enter button.
 
 Note: I used HC series ICs for the whole project, and I also needed a few 4.7k push-down resistors and 100nF decoupling capacitors.
 
