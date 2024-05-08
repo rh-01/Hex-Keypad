@@ -31,6 +31,8 @@ Routes the input signal to MAR or RAM according to the input selected (MAR, RAM 
 
 The first module can be placed in the empty space of the MAR module (the LEDs are placed on the clock module above), and if you keep the lowest two breadboards (right and left side) empty for Ben Eater's original design, you can fit the last two modules there (see image, I removed the keypad to show the full board).
 
+Hex keypads are really cheap, but they typically have key layouts like on a phone or pocket calculator. I simply fixed a piece of (handwritten) paper on top of it with a layout that is more convenient for the given purpose.  
+
 ![alt text](IMG_3048.jpg)
 
 
