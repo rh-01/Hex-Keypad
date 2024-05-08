@@ -2,6 +2,8 @@
 
 This is a side project for Ben Eater's 8 bit computer. It adds an input module that give you the option to use a simple hex keypad for code input, and consists of three sub-modules. I added some basic schematics for them, but this whole description still needs to be cleaned up a bit when I have more time...
 
+Operation is straightforward: select destination, enter hex code, confirm (after both 4 bits have entered) with Ben's original Enter button.
+
 Note: I used HC series ICs for the whole project, and I also needed a few 4.7k push-down resistors and 100nF decoupling capacitors.
 
 ## 1 - Input selector 
@@ -26,7 +28,6 @@ Routes the input signal to MAR or RAM according to the input selected (MAR, RAM 
 - 3x quad buffers (74HC175) as input buffers
 - 3-state buffer (74HC125) as read enable switch (triggered by input selector)
 
-To confirm the entered RAM data, you still have to press Ben's original Enter button to validate.
 
 ## Notes
 
