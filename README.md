@@ -6,7 +6,7 @@ Note: I used HC series ICs for the whole project, and I also needed a few 4.7k p
 
 ## 1 - Input selector 
 Selects the input destination (address / msb / lsb) and consists of the following components:
-- push button
+- push button to select the input destination 
 - double D flip flop [74HC74]
 - quad NAND (74HC00) 
 - 3 inverters (can be used from clock module above) for indicator LEDs
@@ -26,6 +26,7 @@ Routes the input signal to MAR or RAM according to the input selected (MAR, RAM 
 - 3x quad buffers (74HC175) as input buffers
 - 3-state buffer (74HC125) as read enable switch (triggered by input selector)
 
+To confirm the entered RAM data, you still have to press Ben's original Enter button to validate.
 
 ## Notes
 
